@@ -1,5 +1,5 @@
 -- Registering the chat command
-RegisterCommand("911t", function(source, args)
+RegisterCommand("911", function(source, args)
     local location = GetEntityCoords(PlayerPedId())
 
     -- Trigger the 'nearest-postal' resource to get the nearest postal code
